@@ -7,10 +7,6 @@ export default {
 				"roboto-mono": ['Roboto Mono', "monospace"]
 			}
 		},
-		container: {
-			center: true,
-			padding: "2rem"
-		}
   },
   plugins: [],
 }

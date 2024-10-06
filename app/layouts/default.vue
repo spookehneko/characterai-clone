@@ -1,6 +1,6 @@
 <template>
-	<div>
-		Navbar goes here
+	<div class="font-roboto-mono">
+		<Navbar />
 		<slot />
 	</div>
 </template>
