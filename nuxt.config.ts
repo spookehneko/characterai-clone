@@ -12,11 +12,16 @@ export default defineNuxtConfig({
 		'@nuxt/fonts',
 		'@nuxtjs/tailwindcss',
 		'@nuxt/image',
+		'@nuxtjs/supabase'
 	],
 
 	fonts: {
 		families: [
 			{ name: "Roboto Mono", provider: "fontsource" }
 		]
+	},
+
+	supabase: {
+		redirect: false
 	}
 })

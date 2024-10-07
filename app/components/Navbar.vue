@@ -12,7 +12,7 @@
 				</NuxtLink>
 				<div class="flex flex-row w-full gap-4 justify-start">
 					<button class="text-black bg-white rounded-full py-2 px-4 hover:bg-gray-100">Sign Up to Chat</button>
-					<button class="border-[1px] rounded-full px-4 border-[#2f3035] hover:bg-gray-900">Login</button>
+					<button class="border-[1px] rounded-full px-4 border-[#2f3035] hover:bg-gray-900" @click="$emit('open')">Login</button>
 				</div>
 			</section>
 			<section class="w-full md:w-full min-[140px] max-w-[412px] bg-[#202024] rounded-full px-2">
@@ -32,5 +32,5 @@
 </template>
 
 <script setup lang="ts">
-
+defineEmits(['open'])
 </script>
