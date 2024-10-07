@@ -30,7 +30,7 @@
 						<Card />
 					</div>
 				</div>
-				<Modal v-show="openModal" />
+				<Modal v-show="openModal" @close="openModal = false" />
 			</div>
 		</main>
 	</div>
