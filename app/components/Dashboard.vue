@@ -53,6 +53,6 @@
 </template>
 
 <script setup lang="ts">
-const isExpanded = ref(true)
+const isExpanded = ref(false)
 </script>
 

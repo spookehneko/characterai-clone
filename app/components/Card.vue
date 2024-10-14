@@ -1,5 +1,5 @@
 <template>
-	<NuxtLink class="h-[140px] w-[312px] cursor-pointer">
+	<NuxtLink class="h-[140px] w-[312px] cursor-pointer" to="/chat/test">
 		<div class="flex h-[140px] bg-[#202024] w-[312px] rounded-xl p-3 hover:bg-gray-800">
 			<NuxtImg :src="imgsrc" width="90px" class="rounded-lg object-cover mr-3" />
 			<div class="h-full flex flex-col justify-between">
