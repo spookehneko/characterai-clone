@@ -79,11 +79,11 @@
 </template>
 
 <script setup lang="ts">
-const { bot } = useRoute().params
+	const { bot } = useRoute().params
 
-function autoGrow(event: Event) {
-	const textarea = event.target as HTMLTextAreaElement
-	textarea.style.height = "auto"
-	textarea.style.height = `${textarea.scrollHeight}px`
-}
+	function autoGrow(event: Event) {
+		const textarea = event.target as HTMLTextAreaElement
+		textarea.style.height = "auto"
+		textarea.style.height = `${textarea.scrollHeight}px`
+	}
 </script>
